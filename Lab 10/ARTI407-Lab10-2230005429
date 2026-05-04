@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 3,
    "id": "e9f45b87-304a-4e3a-b334-2fb28e7faa2b",
    "metadata": {},
    "outputs": [
@@ -27,6 +27,7 @@
    "source": [
     "import cv2\n",
     "import matplotlib.pyplot as plt\n",
+    "\n",
     "\n",
     "#Load image (grayscale)\n",
     "image = cv2.imread('Butterfly.jpg', cv2.IMREAD_GRAYSCALE)\n",
@@ -59,7 +60,7 @@
     "plt.tight_layout()\n",
     "plt.show()\n",
     "\n",
-    "print(f\"Optimal Threshold (Otsu): {T}\")"
+    "print(f\"Optimal Threshold (Otsu): {T}\")\n"
    ]
   },
   {
